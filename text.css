@@ -1,0 +1,12 @@
+.heading{
+  position: absolute;
+  margin-left: 250px;
+  color: white;
+  font-family: sans-serif;
+}
+
+@media screen and (max-height: 400px) {
+ .heading {padding-top: 15px;}
+ .heading {font-size: 500px;}
+ .heading {padding-right: 25px}
+}
