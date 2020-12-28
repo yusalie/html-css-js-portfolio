@@ -1,45 +1,30 @@
-<!DOCTYPE html onload="move()">
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="about.css">
-  </head>
-  <body>
-    <pre id="p"></pre>
-
-      <button onclick="openMenu()" class="ShowMenu">≡</button>
-    <div id="Menu" class="menu">
-       <button class="closebtn" onclick="closeMenu()">&times;</button>
-       <a href="about.html">About Me</a>
-       <a href="#">Projects</a>
-       <a href="#">Testimonial</a>
-       <a href="#">Contact</a>
+<!DOCTYPE html><html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="background.css">
+    </head>
+    <body>
+        <button onclick="openMenu()" class="ShowMenu">≡</button>
+        <div id="Menu" class="menu">
+        <button class="closebtn" onclick="closeMenu()">&times;</button>
+        <a href="about.html">About Me</a>
+        <a href="#">Projects</a>
+        <a href="testimonial.html">Testimonial</a>
+        <a href="#">Contact</a>
     </div>
-
-    <div class="progress">
-      <p>HTML</p>
-
-      <div class="bar">
-      <div class="html">90%</div>
-      </div>
-      <p>CSS</p>
-      <div class="bar">
-        <div class="css">80%</div>
-      </div>
-
-      <p>JavaScript</p>
-      <div class="bar">
-        <div class="js">65%</div>
-      </div>
-
-      <p>Python</p>
-      <div class="bar">
-        <div class="python">100%</div>
-      </div>
-    </div>
-
-    <script src="index.js" charset="utf-8"></script>
-  </body>
+        <div class="skill">
+            <h1>
+                Skills:
+            </h1>
+        </div>
+        <div class="skillBar">
+            
+        </div>
+        <script src="menu.js" async defer></script>
+    </body>
 </html>

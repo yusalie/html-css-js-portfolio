@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE>
+<html lang="en" dir="ltr" onload="chngeColor()">
 
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="text.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="animate.css">
 </head>
 
-<body>
+<body onload="chngeColor()">
     <button onclick="openMenu()" class="ShowMenu">≡</button>
     <div id="Menu" class="menu">
         <button class="closebtn" onclick="closeMenu()">&times;</button>
@@ -17,12 +18,27 @@
         <a href="testimonial.html">Testimonial</a>
         <a href="#">Contact</a>
     </div>
-    <!-- <canvas id="canvas" width="800" height="150">
-    <div class="text">
-      Yusuf Salie
+    <div class="heading" id="home">
+        <h1 class="title_home">
+            <strong>Yusuf Salie</strong>
+        </h1>
     </div>
-  </canvas> -->
-    <script src="index.js" charset="utf-8"></script>
+    <div class="heading2" id="home2">
+        <h1 class="title_home2">
+            <strong>Programmer</strong>
+        </h1>
+    </div>
+    <div class="heading3" id="home3">
+        <h1 class="title_home3">
+            <strong>Junior</strong>
+        </h1>
+    </div>
+    <div class="heading4" id="home4">
+        <h1 class="title_home4">
+            <strong>Developer</strong>
+        </h1>
+    </div>
+    <script src="menu.js" charset="utf-8"></script>
+    <script src="animate.js"></script>
 </body>
-
 </html>

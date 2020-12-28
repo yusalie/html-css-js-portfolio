@@ -1,0 +1,55 @@
+.menu {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: black;
+overflow-x: hidden;
+transition: 0.5s;
+}
+
+.menu a {
+padding: 8px 8px 8px 32px;
+font-size: 25px;
+color: mediumblue;
+display: block;
+transition: 0.3s;
+}
+
+.menu a:hover {
+color: darkgrey;
+}
+
+.menu .closebtn {
+position: absolute;
+top: 0;
+right: 2px;
+font-size: 36px;
+margin-left: 50px;
+background-color: black;
+border-radius: 10px;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 20px;
+}
+
+@media screen and (max-height: 400px) {
+.menu {padding-top: 15px;}
+.menu a {font-size: 18px;}
+}
+
+.ShowMenu{
+    background-color: #111;
+    font-size: 50px;
+    color: white;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.heading{
+    text-align: center;
+}

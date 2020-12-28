@@ -1,0 +1,47 @@
+.heading{
+  position: relative;
+  animation-name: title;
+  animation-duration: 5s;
+}
+
+
+@keyframes title{
+  0%   {right:-2000px; top:0px;}
+  100% {right:0px; top:0px;}
+}
+
+.heading2{
+  position: relative;
+  text-align: center;
+  animation-name: title2;
+  animation-duration: 5s;
+}
+
+@keyframes title2{
+  0%{left: -2000px;}
+  100%{left: 0px;}
+}
+
+.heading3{
+  position: relative;
+  text-align: center;
+  animation-name: title3;
+  animation-duration: 5s;
+}
+
+@keyframes title3{
+  0%{right: -2000px;}
+  100%{right: 0px;}
+}
+
+.heading4{
+  position: relative;
+  text-align: center;
+  animation-name: title4;
+  animation-duration: 5s;
+}
+
+@keyframes title4{
+  0%{left: -2000px;}
+  100%{left: 0px;}
+}
