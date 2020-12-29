@@ -3,17 +3,35 @@ h1{
 }
 
 #line{
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 200px;
-    background-color: transparent;
-    animation: fadeIn 250ms 0ms forwards;
+    animation: fadeIn1 250ms 0ms forwards;
 }
 
-@keyframes fadeIn{
+@keyframes fadeIn1{
+    from{
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+canvas{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.canvas{
+    padding-left: 564px;
+}
+
+#line2{
+    animation: fadeIn2 400ms 0ms forwards;
+}
+
+@keyframes fadeIn2{
     from{
         transform: translateY(-30px);
         opacity: 0;
@@ -22,37 +40,68 @@ h1{
         transform: translateY(0);
         opacity: 1;
     }
+    
 }
 
-#python{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    background-color: transparent;
-    animation: fadeIn 1s 0ms forwards;
-}
-
-
-/* #line2{
-    background-color: black;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 200px;
-    background-color: black; */
-/* }
 #line3{
-    background-color: black;
-    width: 200px;
+    animation: fadeIn3 500ms 0ms forwards;
 }
+
+@keyframes fadeIn3{
+    from{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
 #line4{
-    background-color: black;
-    width: 200px;
-} */
+    animation: fadeIn4 700ms 0ms forwards;
+}
+
+@keyframes fadeIn4{
+    from{
+        transform: translateX(30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.js{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    animation: fadeIn4 1500ms 0ms forwards;
+}
+
+.css{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    animation: fadeIn3 1300ms 0ms forwards;
+}
+
+.html{
+    border-radius: 100%;    
+    width: 70px;
+    height: 70px;
+    animation: fadeIn2 1100ms 0ms forwards;
+}
+
+.python{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    animation: fadeIn1 900ms 0ms forwards;
+}
+
+.img{
+    padding-left: 528px;
+}
