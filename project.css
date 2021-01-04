@@ -12,7 +12,7 @@
   margin-left: 159px;
 }
 
-mp3{
+.mp3{
   border-radius: 50px;
   width: 224px;
   height: 259px;
@@ -22,3 +22,8 @@ mp3{
 h4{
   color: black;
 }
+
+h1{
+  padding: 0;
+  margin-left: 746px;
+  margin-right: 220px;
