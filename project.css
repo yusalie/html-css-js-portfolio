@@ -40,3 +40,11 @@ h1{
     width: 206px;
     height: 197px;
 }
+
+#weather{
+  border-radius: 50px;
+  width: 224px;
+  height: 259px;
+  margin-left: 407px;
+  margin-top: -258px;
+}
