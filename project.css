@@ -5,20 +5,22 @@
   margin-left: 159px;
 }
 
-.weather{
-  border-radius: 50px;
-  width: 224px;
-  height: 259px;
-  margin-left: 407px;
-  margin-top: -258px;
+.weather {
+    border-radius: 50px;
+    width: 224px;
+    height: 259px;
+    margin-left: 407px;
+    margin-top: -258px;
+    border: solid;
 }
 
 .mp3{
-  border-radius: 50px;
-  width: 224px;
-  height: 259px;
-  margin-left: 610px;
-  margin-top: -258px;
+    border-radius: 50px;
+    width: 224px;
+    height: 259px;
+    margin-left: 407px;
+    margin-top: -258px;
+    border: solid;
 }
 
 h4{
@@ -32,8 +34,12 @@ h1{
 }
 
 .calc{
-  width: 50px;
-  height: 50px;
+    border-radius: 50px;
+    width: 224px;
+    height: 259px;
+    margin-left: 407px;
+    margin-top: -258px;
+    border: solid;
 }
 
 #calc {
