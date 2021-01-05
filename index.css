@@ -1,88 +1,101 @@
-.menu {
- height: 100%;
- width: 0;
- position: fixed;
- z-index: 1;
- top: 0;
- left: 0;
- background-color: black;
- overflow-x: hidden;
- padding-top: 60px;
- transition: 0.5s;
+.language {
+    color: #000!important;
+    background-color: #f1f1f1!important
 }
 
-.menu a {
- padding: 8px 8px 8px 32px;
- text-decoration: none;
- font-size: 25px;
- color: mediumblue;
- display: block;
- transition: 0.3s;
-}
-
-.menu a:hover {
- color: darkgrey;
-}
-
-.menu .closebtn {
- position: absolute;
- top: 0;
- right: 2px;
- font-size: 36px;
- margin-left: 50px;
- background-color: black;
- border-radius: 10px;
-}
-
-#main {
- transition: margin-left .5s;
- padding: 20px;
-}
-
-@media screen and (max-height: 400px) {
- .menu {padding-top: 15px;}
- .menu a {font-size: 18px;}
-}
-
-.ShowMenu{
-  background-color: #111;
-  font-size: 50px;
+.bar{
   color: white;
-  border-radius: 0px;
-  position: absolute;
-  margin-top: -105px;
-}
-
-.bar {
-  width: 100%;
-  background-color: white;
-}
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.html {
-  width: 90%;
-  background-color: purple;
-  }
-.css {
-  width: 80%;
-  background-color: green
-  }
-.js {
-  width: 65%;
-  background-color: orange;
-}
-
-.python {
-  width: 100%;
   background-color: blue;
+  text-align: center;
 }
 
-.progress{
-  margin-top: 107px;
+img{
+  width:50px;
+  height: 600px;
+}
+
+html{
+  margin-left: 375px;
+  margin-right: 375px;
+}
+
+body{
+  margin-left: 120px;
+  margin-right: 120px;
+  background-image: linear-gradient(to bottom, black , grey);
+}
+
+.zoe{
+  heigtht: 30px;
+  width: 200px;
+}
+
+.arrow{
+  background: transparent;
+  border-color: transparent;
+  color: black;
+  font-size: 25px;
+  margin-left: 120px;
+  margin-right: 120px;
+  font-family: cursive;
+}
+#calc, #weather, #mp3, #lotto, #jp{
+    width: 150px;
+    height: 150px;
+    border-radius: 500000px;
+    float: left;
+    padding: 5px;
+}
+
+@media screen and (max-width: 500px){
+  .language {
+      color: #000 d!important;
+      background-color: #f1f1f1 !important
+  }
+
+  .bar{
+    width: 50px
+    color: white;
+    background-color: blue;
+    text-align: center;
+    width: 250px;
+  }
+
+  img{
+    width:50px;
+    height: 600px;
+  }
+
+  html{
+    margin-left: 375px;
+    margin-right: 375px;
+  }
+
+  body{
+    margin-left: 120px;
+    margin-right: 120px;
+    background-image: linear-gradient(to bottom, black , grey);
+  }
+
+  .zoe{
+    heigtht: 30px;
+    width: 200px;
+  }
+
+  .arrow{
+    background: transparent;
+    border-color: transparent;
+    color: black;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: cursive;
+  }
+  #calc, #weather, #mp3, #lotto, #jp{
+      width: 150px;
+      height: 150px;
+      border-radius: 500000px;
+      float: left;
+      padding: 5px;
+  }
 }
