@@ -35,8 +35,8 @@ body{
   border-color: transparent;
   color: black;
   font-size: 25px;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 22px;
+  margin-right: 0px;
   font-family: cursive;
 }
 #calc, #weather, #mp3, #lotto, #jp{
