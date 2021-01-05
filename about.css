@@ -105,3 +105,18 @@ canvas{
 .img{
     padding-left: 528px;
 }
+
+#canvas2{
+    background: transparent;
+    padding-left: 535px;
+    animation: fadeIn2 1500ms 0ms forwards;
+}
+
+.machine{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    padding-left: 529px;
+    padding-right: 529px;
+    animation: fadeIn2 1700ms 0ms forwards;
+}

@@ -33,3 +33,12 @@ line4.moveTo(1, 1);
 line4.lineTo(22000, 11000);
 line4.lineWidth = 5;
 line4.stroke();
+
+var machine = document.getElementById("canvas2");
+var line5 = machine.getContext("2d");
+
+line5.beginPath();
+line5.moveTo(155, 0);
+line5.lineTo(1200, 1110000);
+line5.lineWidth = 5;
+line5.stroke()
