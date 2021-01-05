@@ -103,12 +103,12 @@ canvas{
 }
 
 .img{
-    padding-left: 528px;
+    padding-left: 826px;
 }
 
 #canvas2{
     background: transparent;
-    padding-left: 535px;
+    padding-left: 794px;
     animation: fadeIn2 1500ms 0ms forwards;
 }
 
@@ -116,7 +116,7 @@ canvas{
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    padding-left: 529px;
-    padding-right: 529px;
+    padding-left: 782px;
+    padding-right: 782px;
     animation: fadeIn2 1700ms 0ms forwards;
 }
